@@ -8,7 +8,7 @@ const app = express()
 app.use('/places', require('./controllers/places'))
 
 //homepage route
-app.get('/', function(req,res){
+app.get('/', (req,res) => {
     res.send("hello world")
 })
 

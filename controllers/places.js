@@ -1,7 +1,7 @@
-const router = rewuire('express').Router()
+const router = require('express').Router()
 
-router.get('/', (req, res)=>{
+router.get('/', (req, res) => {
     res.send('GET /places')
 })
 
-module.export= router
+module.exports= router
